@@ -1,0 +1,71 @@
+body{
+    background-image: url("https://img.pixers.pics/pho_wat(s3:700/FO/70/23/34/92/700_FO70233492_0572effe7139843bbcd8af990782bdfd.jpg,700,467,cms:2018/10/5bd1b6b8d04b8_220x50-watermark.png,over,480,417,jpg)/papiers-peints-autocollants-blackboard.jpg.jpg");
+    background-size: cover ;
+
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    margin: 70px;
+    color: #e2a88e;
+    padding-bottom: 30px;
+    font-size: 70px;
+    font-family: 'Patrick Hand', cursive;
+}
+
+#keyboard{
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+    width : 1500px;
+    padding-top: 50px;
+}
+
+.letter{
+    background-color:#897777;
+    width: 200px;
+    height: 100px;
+    font-size: 50px;
+    color:#c9b9b9;
+    text-transform: uppercase;
+    font-family: 'Patrick Hand', cursive;
+}
+
+#WordToGuess{
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+
+}
+
+#hangmanPic{
+    
+    display :block;
+    margin-top: 50px;
+    margin-left: 760px;
+    margin-right: auto;
+    padding :0px;
+    border : 10px solid black;
+}
+
+#counter{
+    float: left;
+    color:#e2a88e;
+    font-size: 30px;
+    font-family: 'Patrick Hand', cursive;
+}
+
+.underscore{
+    color:#c9b9b9;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+footer{
+    color:#e2a88e;
+    font-family: 'Patrick Hand', cursive;
+    margin-top: 70px;
+    font-size: 20px;
+
+}
