@@ -103,3 +103,17 @@ function updatePicture(){
 
 generateKeyboard();
 guessWord();
+
+
+document.getElementById('btn').addEventListener('click', function(){//reset button
+    document.getElementById('WordToGuess').innerHTML = " ";
+    answer = randomAnimal[Math.floor(Math.random() * randomAnimal.length)];
+    console.log(answer)
+    word =answer.split("");
+    remainingLetters = word.length;
+    guessWord();
+    mistakes = 0;
+    document.getElementById('mistakes').innerHTML = 0
+    pictureCounter = 1;
+    document.getElementById("hangmanPic").src = 'pictures/hangman' + pictureCounter + '.JPG'
+})
